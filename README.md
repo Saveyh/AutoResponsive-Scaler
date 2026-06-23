@@ -1,6 +1,6 @@
-# Responsive Scale Layout
+# AutoScaler-Responsive
 
-A lightweight JavaScript utility for scaling fixed-width web layouts fluidly with CSS transforms, reducing the need to rebuild layouts for every screen size.
+Make your website responsive with one script instead of redesigning every breakpoint.
 
 Best for art-directed, desktop-first websites where you want to preserve one precise layout and scale it between screen sizes.
 
@@ -30,7 +30,7 @@ examples/basic/index.html
 If you publish this repository with GitHub Pages from the repository root, the demo URL will be:
 
 ```txt
-https://Saveyh.github.io/responsive-scale-layout/examples/basic/
+https://Saveyh.github.io/AutoScaler-Responsive/examples/basic/
 ```
 
 ## Quick Start
@@ -71,7 +71,7 @@ After the repository is public, you can load the file through jsDelivr:
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/gh/Saveyh/responsive-scale-layout@0.1.0/responsive-scale.js"
+  src="https://cdn.jsdelivr.net/gh/Saveyh/AutoScaler-Responsive@0.1.0/responsive-scale.js"
   data-design-width="1920"
 ></script>
 ```

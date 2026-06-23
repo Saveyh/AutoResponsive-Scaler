@@ -1,7 +1,7 @@
 {
-  "name": "responsive-scale-layout",
+  "name": "autoscaler-responsive",
   "version": "0.1.0",
-  "description": "A lightweight JavaScript utility for scaling fixed-width web layouts fluidly with CSS transforms.",
+  "description": "Make your website responsive with one script instead of redesigning every breakpoint.",
   "main": "responsive-scale.js",
   "browser": "responsive-scale.js",
   "files": [
@@ -24,11 +24,11 @@
   "author": "Matteo Giaquinto",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Saveyh/responsive-scale-layout.git"
+    "url": "git+https://github.com/Saveyh/AutoScaler-Responsive.git"
   },
   "bugs": {
-    "url": "https://github.com/Saveyh/responsive-scale-layout/issues"
+    "url": "https://github.com/Saveyh/AutoScaler-Responsive/issues"
   },
-  "homepage": "https://Saveyh.github.io/responsive-scale-layout/",
+  "homepage": "https://Saveyh.github.io/AutoScaler-Responsive/",
   "license": "MIT"
 }
