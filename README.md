@@ -1,4 +1,4 @@
-# AutoScaler-Responsive
+# AutoResponsive-Scaler
 
 Make your website responsive with one script instead of redesigning every breakpoint.
 
@@ -30,7 +30,7 @@ examples/basic/index.html
 If you publish this repository with GitHub Pages from the repository root, the demo URL will be:
 
 ```txt
-https://Saveyh.github.io/AutoScaler-Responsive/examples/basic/
+https://Saveyh.github.io/AutoResponsive-Scaler/examples/basic/
 ```
 
 ## Quick Start
@@ -71,7 +71,7 @@ After the repository is public, you can load the file through jsDelivr:
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/gh/Saveyh/AutoScaler-Responsive@0.1.0/responsive-scale.js"
+  src="https://cdn.jsdelivr.net/gh/Saveyh/AutoResponsive-Scaler@0.1.0/responsive-scale.js"
   data-design-width="1920"
 ></script>
 ```
