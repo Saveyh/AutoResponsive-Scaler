@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 This project follows a simple versioning approach while it is experimental:
 
 - `0.x` versions may include breaking changes.
-- `1.0.0` will mean the public API is considered stable.
+- `1.0.0` will mean the way people use the script is considered stable.
 
 ## 0.1.0 - 2026-06-24
 
@@ -15,5 +15,5 @@ Initial experimental release.
 - Added support for fixed elements with `data-scale-fixed`.
 - Added corrected body height after CSS transforms.
 - Added data attribute configuration.
-- Added manual initialization API.
+- Added manual initialization method.
 - Added basic demo.

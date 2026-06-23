@@ -1,8 +1,10 @@
 # Responsive Scale Layout
 
-A tiny browser helper for websites built from one fixed desktop layout.
+A lightweight JavaScript utility for scaling fixed-width web layouts fluidly with CSS transforms, reducing the need to rebuild layouts for every screen size.
 
-Instead of writing many responsive breakpoints, you can design a precise layout at a fixed width, usually `1920px`, wrap the page in one container, and let this script scale the layout down to fit smaller screens.
+Best for art-directed, desktop-first websites where you want to preserve one precise layout and scale it between screen sizes.
+
+Instead of writing many responsive breakpoints, you can design a precise layout at a fixed width, usually `1920px`, wrap the page in one container, and let this script scale the layout down to fit the viewport.
 
 > Status: `0.1.0` experimental. The approach works well for visual, desktop-first websites, but it is not a replacement for every responsive layout.
 
@@ -28,7 +30,7 @@ examples/basic/index.html
 If you publish this repository with GitHub Pages from the repository root, the demo URL will be:
 
 ```txt
-https://YOUR_USERNAME.github.io/responsive-scale-layout/examples/basic/
+https://Saveyh.github.io/responsive-scale-layout/examples/basic/
 ```
 
 ## Quick Start
@@ -69,12 +71,12 @@ After the repository is public, you can load the file through jsDelivr:
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/gh/YOUR_USERNAME/responsive-scale-layout@0.1.0/responsive-scale.js"
+  src="https://cdn.jsdelivr.net/gh/Saveyh/responsive-scale-layout@0.1.0/responsive-scale.js"
   data-design-width="1920"
 ></script>
 ```
 
-Replace `YOUR_USERNAME` with the GitHub account that owns the repository.
+Replace `Saveyh` if you fork the repository under another GitHub account.
 
 ## Fixed Elements
 
@@ -212,7 +214,6 @@ npm pack --dry-run
 
 Before publishing your first public release:
 
-- replace `YOUR_USERNAME` in `package.json` and this README;
 - enable GitHub Pages from the repository root if you want the demo URL;
 - create a GitHub release matching the version in `package.json`;
 - test the helper on at least two real websites.
