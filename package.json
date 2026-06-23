@@ -1,0 +1,34 @@
+{
+  "name": "responsive-scale-layout",
+  "version": "0.1.0",
+  "description": "A tiny helper for responsive websites built from a fixed desktop layout.",
+  "main": "responsive-scale.js",
+  "browser": "responsive-scale.js",
+  "files": [
+    "responsive-scale.js",
+    "examples",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --check responsive-scale.js"
+  },
+  "keywords": [
+    "responsive",
+    "scale",
+    "layout",
+    "desktop",
+    "css-transform"
+  ],
+  "author": "Matteo Giaquinto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/responsive-scale-layout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/responsive-scale-layout/issues"
+  },
+  "homepage": "https://YOUR_USERNAME.github.io/responsive-scale-layout/",
+  "license": "MIT"
+}

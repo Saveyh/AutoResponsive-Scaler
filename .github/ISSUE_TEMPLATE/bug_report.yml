@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a layout or browser bug
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reduced example
+      description: Paste the smallest HTML/CSS/JS example that reproduces the issue.
+      render: html
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Chrome 126, Safari 18, Firefox 128...
+    validations:
+      required: false
+  - type: input
+    id: viewport
+    attributes:
+      label: Viewport size
+      placeholder: 1440x900
+    validations:
+      required: false

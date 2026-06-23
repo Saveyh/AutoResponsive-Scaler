@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Scale Layout Demo</title>
+    <script src="../../responsive-scale.js" data-design-width="1920"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          Inter,
+          Arial,
+          sans-serif;
+        color: #111;
+        background: #f4f0e8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      header {
+        position: fixed;
+        top: 32px;
+        width: 980px;
+        height: 72px;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 28px;
+        background: #111;
+        color: white;
+        border-radius: 999px;
+      }
+
+      header nav {
+        display: flex;
+        gap: 36px;
+        font-weight: 700;
+      }
+
+      .container {
+        width: 1920px;
+        min-height: 2300px;
+        padding-top: 160px;
+      }
+
+      .hero {
+        width: 1760px;
+        height: 900px;
+        margin: 0 auto;
+        border-radius: 32px;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35)),
+          url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1800&q=80");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 90px;
+      }
+
+      h1 {
+        max-width: 1150px;
+        margin: 0;
+        font-size: 112px;
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .grid {
+        width: 1760px;
+        margin: 120px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+      }
+
+      .card {
+        min-height: 420px;
+        padding: 48px;
+        border-radius: 20px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .card h2 {
+        margin: 0;
+        font-size: 56px;
+        letter-spacing: 0;
+      }
+
+      .card p {
+        margin: 0;
+        font-size: 28px;
+        line-height: 1.35;
+      }
+    </style>
+  </head>
+  <body>
+    <header data-scale-fixed>
+      <strong>Scale Layout</strong>
+      <nav>
+        <span>Home</span>
+        <span>Docs</span>
+        <span>Contact</span>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="hero">
+        <h1>One desktop layout, scaled down cleanly.</h1>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Design</h2>
+          <p>Build the page at a fixed desktop width, like 1920px.</p>
+        </article>
+        <article class="card">
+          <h2>Wrap</h2>
+          <p>Put the full page inside a single scalable container.</p>
+        </article>
+        <article class="card">
+          <h2>Scale</h2>
+          <p>The script scales the layout and fixes the scroll height.</p>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
