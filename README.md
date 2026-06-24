@@ -217,14 +217,6 @@ Package dry-run:
 npm pack --dry-run
 ```
 
-## Publishing Checklist
-
-Before publishing your first public release:
-
-- enable GitHub Pages from the repository root if you want the demo URL;
-- create a GitHub release matching the version in `package.json`;
-- test the helper on at least two real websites.
-
 ## License
 
 MIT
