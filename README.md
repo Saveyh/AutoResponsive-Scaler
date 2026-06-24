@@ -29,10 +29,25 @@ examples/basic/index.html
 
 ## Quick Start
 
-Copy `responsive-scale.js` into your project and load it in the `<head>`:
+### Option A: Install With An AI Agent
+
+Copy-paste the raw AI install prompt into Codex, Cursor, Claude Code, or another coding agent:
+
+[Copy raw AI install prompt](https://raw.githubusercontent.com/Saveyh/AutoResponsive-Scaler/main/docs/ai-install-prompt.md)
+
+You can also read the prompt in the docs:
+
+[docs/ai-install-prompt.md](docs/ai-install-prompt.md)
+
+### Option B: Install Manually
+
+Load the stable CDN version in the `<head>`:
 
 ```html
-<script src="./responsive-scale.js" data-design-width="1920"></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/Saveyh/AutoResponsive-Scaler@0.1.0/responsive-scale.js"
+  data-design-width="1920"
+></script>
 ```
 
 Wrap your page content:
@@ -164,10 +179,6 @@ You can refresh measurements manually after custom layout changes:
 ```js
 ResponsiveScaleLayout.instance.refresh();
 ```
-
-## Use With AI Agents
-
-If you want an AI coding agent to install AutoResponsive-Scaler into an existing website, copy the prompt in [docs/ai-install-prompt.md](docs/ai-install-prompt.md).
 
 ## How It Works
 
