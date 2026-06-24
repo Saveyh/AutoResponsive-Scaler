@@ -27,12 +27,6 @@ Open the local demo:
 examples/basic/index.html
 ```
 
-If you publish this repository with GitHub Pages from the repository root, the demo URL will be:
-
-```txt
-https://Saveyh.github.io/AutoResponsive-Scaler/examples/basic/
-```
-
 ## Quick Start
 
 Copy `responsive-scale.js` into your project and load it in the `<head>`:
