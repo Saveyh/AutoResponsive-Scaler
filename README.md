@@ -165,6 +165,10 @@ You can refresh measurements manually after custom layout changes:
 ResponsiveScaleLayout.instance.refresh();
 ```
 
+## Use With AI Agents
+
+If you want an AI coding agent to install AutoResponsive-Scaler into an existing website, copy the prompt in [docs/ai-install-prompt.md](docs/ai-install-prompt.md).
+
 ## How It Works
 
 The script calculates:
