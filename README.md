@@ -67,7 +67,9 @@ The script handles the scale, the horizontal overflow, and the corrected page he
 
 ## CDN Usage
 
-After the repository is public, you can load the file through jsDelivr:
+You can load the script directly from jsDelivr.
+
+Stable version:
 
 ```html
 <script
@@ -75,6 +77,17 @@ After the repository is public, you can load the file through jsDelivr:
   data-design-width="1920"
 ></script>
 ```
+
+Latest `main` branch:
+
+```html
+<script
+  src="https://cdn.jsdelivr.net/gh/Saveyh/AutoResponsive-Scaler@main/responsive-scale.js"
+  data-design-width="1920"
+></script>
+```
+
+Use a tagged version like `@0.1.0` for production sites.
 
 Replace `Saveyh` if you fork the repository under another GitHub account.
 
